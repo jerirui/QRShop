@@ -1,5 +1,5 @@
 # QRShop
-QR-Supermarket Ionic-vased hybrid mobile application
+QR-Supermarket Ionic-based hybrid mobile application
 
 ## How to deploy on Android:
 
