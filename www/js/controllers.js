@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('qrshop.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
@@ -20,6 +20,10 @@ angular.module('starter.controllers', [])
   $scope.login = function() {
     $scope.modal.show();
   };
+
+  $scope.showLinkedin = function() {
+    window.open('http://apache.org', '_self');
+  }
 
   // Perform the login action when the user submits the login form
   $scope.doLogin = function() {
