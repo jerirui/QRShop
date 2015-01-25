@@ -22,7 +22,7 @@ angular.module('qrshop.controllers', [])
   };
 
   $scope.showLinkedin = function() {
-    window.open('http://apache.org', '_self');
+    window.open('http://linkedin.com/in/oigen90/', '_blank', 'location=yes');
   }
 
   // Perform the login action when the user submits the login form
