@@ -1,4 +1,5 @@
 $qrshopBlue: #0680bd;
+$blueishGrey: #d3e5ed;
 
 .main-menu-list {
     height: 100%;
@@ -19,5 +20,13 @@ $qrshopBlue: #0680bd;
         display: block;
         margin: 0 auto;
         text-align: center;
+    }
+}
+
+.view-container, .pane {
+    background: $blueishGrey;
+
+    & * {
+        background-color: inherit;
     }
 }
