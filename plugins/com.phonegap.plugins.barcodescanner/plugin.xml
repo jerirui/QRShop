@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.phonegap.plugins.barcodescanner"
-    version="2.0.1">
+    version="1.0.1">
 
     <name>BarcodeScanner</name>
-    <description>You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.</description>
+    <description>Scans Barcodes.</description>
     <license>MIT</license>
 
-    <repo>https://github.com/wildabeast/BarcodeScanner</repo>
-    <issue>https://github.com/wildabeast/BarcodeScanner/issues</issue> 
-    
     <engines>
         <engine name="cordova" version=">=3.0.0" />
-    </engines>    
+    </engines>
 
     <js-module src="www/barcodescanner.js" name="BarcodeScanner">
         <clobbers target="cordova.plugins.barcodeScanner" />
@@ -48,7 +45,7 @@
         <!--
         <source-file src="R.java" target-dir="src/com/google/zxing/client/android" />
         -->
-        
+
         <!--
         <config-file target="res/xml/plugins.xml" parent="/plugins">
             <plugin name="BarcodeScanner" value="com.phonegap.plugins.barcodescanner.BarcodeScanner"/>
@@ -64,7 +61,7 @@
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity
                 android:name="com.google.zxing.client.android.CaptureActivity"
-                android:screenOrientation="landscape"
+                android:screenOrientation="portrait"
                 android:clearTaskOnLaunch="true"
                 android:configChanges="orientation|keyboardHidden"
                 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -103,7 +100,7 @@
             search: (src/android/LibraryProject/(.+?)/[^/]+)$
             replace: <source-file src="$1" target-dir="$2"/>
         -->
-        
+
         <source-file src="src/android/LibraryProject/res/drawable/launcher_icon.png" target-dir="res/drawable"/>
         <source-file src="src/android/LibraryProject/res/drawable/share_via_barcode.png" target-dir="res/drawable"/>
         <source-file src="src/android/LibraryProject/res/drawable/shopper_icon.png" target-dir="res/drawable"/>
@@ -285,51 +282,4 @@
             <string name="wifi_type_label">Type</string>
         </config-file>
     </platform>
-
-    <platform name="windows8">
-        <js-module src="src/windows8/BarcodeScannerProxy.js" name="BarcodeScannerProxy">
-            <merges target="" />
-        </js-module>
-        <config-file target="package.appxmanifest" parent="/Package/Capabilities">
-            <DeviceCapability Name="webcam" />
-        </config-file>
-        <framework src="src/windows8/lib/ZXing.winmd" custom="true" />
-        <framework src="src/windows8/lib/WinRTBarcodeReader.winmd" custom="true" />
-    </platform>
-
-    <!-- Windows Phone 8 -->
-    <platform name="wp8">
-
-        <config-file target="config.xml" parent="/*">
-            <feature name="BarcodeScanner">
-                <param name="wp-package" value="BarcodeScanner"/>
-            </feature>
-        </config-file>
-
-        <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Capabilities">
-            <Capability Name="ID_CAP_ISV_CAMERA" />
-        </config-file>
-
-        <framework src="src/wp8/lib/zxing.wp8.0.dll" custom="true" />
-
-        <source-file src="src/wp8/BarcodeScanner.cs" />
-        <source-file src="src/wp8/BarcodeScannerTask.cs" />
-        <source-file src="src/wp8/BarcodeScannerUI.xaml" />
-        <source-file src="src/wp8/BarcodeScannerUI.xaml.cs" />
-
-    </platform>
-
-    <!-- browser -->
-    <platform name="browser">
-        <config-file target="config.xml" parent="/*">
-            <feature name="BarcodeScanner">
-                <param name="browser-package" value="BarcodeScanner" />
-            </feature>
-        </config-file>
-
-        <js-module src="src/browser/BarcodeScannerProxy.js" name="BarcodeScannerProxy">
-            <runs />
-        </js-module>
-    </platform>
-
 </plugin>
