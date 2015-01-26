@@ -5,7 +5,7 @@ $qrshopBlue: #0680bd;
     background: $qrshopBlue;
     color: #fff;
 
-    & a {
+    & a, & a.activated {
         background: inherit;
         color: inherit;
         border: none;

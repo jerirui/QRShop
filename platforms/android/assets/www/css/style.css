@@ -1,1 +1,16 @@
-/* Empty. Add your own CSS if you like */
+.main-menu-list {
+  height: 100%;
+  background: #0680bd;
+  color: #fff; }
+  .main-menu-list a, .main-menu-list a.activated {
+    background: inherit;
+    color: inherit;
+    border: none; }
+  .main-menu-list .heading {
+    background: inherit;
+    border: none;
+    color: inherit;
+    font-size: 500%;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
