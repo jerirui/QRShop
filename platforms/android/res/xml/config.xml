@@ -10,6 +10,9 @@
     <feature name="BarcodeScanner">
         <param name="android-package" value="com.phonegap.plugins.barcodescanner.BarcodeScanner" />
     </feature>
+    <feature name="TelephoneNumber">
+        <param name="android-package" value="com.rotorgames.cordova.plugins.TelephoneNumber" />
+    </feature>
     <name>QRShop</name>
     <description>
         An Ionic Framework and Cordova project.
@@ -26,7 +29,4 @@
     <preference name="Orientation" value="portrait" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <feature name="TelephoneNumber">
-        <param name="android-package" value="com.rotorgames.cordova.plugins.TelephoneNumber" />
-    </feature>
 </widget>

@@ -1,0 +1,20 @@
+<ion-view view-title="Акції">
+    <ion-content>
+        <div class="list">
+
+            <div class="list card" ng-repeat="article in lastNews">
+                <div class="item item-avatar">
+                    <img src="{{article.shopAvatar}}?random={{$index}}">
+                    <h2>{{article.shopName}}</h2>
+                    <p>{{article.timestamp}}</p>
+                </div>
+
+                <div class="item item-body">
+                    <img class="full-image" src="{{article.newsImage}}?random={{$index}}">
+                    <p>{{article.newsText}}</p>
+                </div>
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>
