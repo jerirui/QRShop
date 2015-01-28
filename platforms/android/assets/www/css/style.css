@@ -14,3 +14,6 @@
     display: block;
     margin: 0 auto;
     text-align: center; }
+
+.view-container, .pane {
+  background: #d3e5ed; }

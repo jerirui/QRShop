@@ -26,4 +26,7 @@
     <preference name="Orientation" value="portrait" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <feature name="TelephoneNumber">
+        <param name="android-package" value="com.rotorgames.cordova.plugins.TelephoneNumber" />
+    </feature>
 </widget>

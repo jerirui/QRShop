@@ -38,6 +38,16 @@ var QRShop = angular.module('qrshop', ['ionic', 'qrshop.controllers'])
     }
   })
 
+  .state('app.settings', {
+    url: "/settings",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/settings.html",
+        controller: 'SettingsController'
+      }
+    }
+  })
+
   .state('app.browse', {
     url: "/browse",
     views: {

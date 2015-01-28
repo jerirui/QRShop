@@ -19,6 +19,10 @@
                         {
                             "xml": "<feature name=\"BarcodeScanner\"><param name=\"android-package\" value=\"com.phonegap.plugins.barcodescanner.BarcodeScanner\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"TelephoneNumber\"><param name=\"android-package\" value=\"com.rotorgames.cordova.plugins.TelephoneNumber\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -50,6 +54,10 @@
                         },
                         {
                             "xml": "<uses-feature android:name=\"android.hardware.camera\" android:required=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
                             "count": 1
                         }
                     ]
@@ -547,6 +555,9 @@
             "PACKAGE_NAME": "com.ionicframework.qrshop890489"
         },
         "com.phonegap.plugins.barcodescanner": {
+            "PACKAGE_NAME": "com.ionicframework.qrshop890489"
+        },
+        "com.rotorgames.telephonenumber": {
             "PACKAGE_NAME": "com.ionicframework.qrshop890489"
         }
     },

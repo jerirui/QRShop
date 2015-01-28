@@ -27,7 +27,8 @@ module.exports.metadata =
 {
     "org.apache.cordova.inappbrowser": "0.5.4",
     "org.apache.cordova.splashscreen": "0.3.5",
-    "com.phonegap.plugins.barcodescanner": "1.0.1"
+    "com.phonegap.plugins.barcodescanner": "1.0.1",
+    "com.rotorgames.telephonenumber": "1.0.0"
 }
 // BOTTOM OF METADATA
 });
