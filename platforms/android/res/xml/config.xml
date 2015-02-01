@@ -13,6 +13,18 @@
     <feature name="TelephoneNumber">
         <param name="android-package" value="com.rotorgames.cordova.plugins.TelephoneNumber" />
     </feature>
+    <feature name="HttpRequest">
+        <param name="android-package" value="plugin.http.request.HttpRequest" />
+    </feature>
+    <feature name="GoogleMaps">
+        <param name="android-package" value="plugin.google.maps.GoogleMaps" />
+    </feature>
+    <feature name="External">
+        <param name="android-package" value="plugin.google.maps.External" />
+    </feature>
+    <feature name="Geocoder">
+        <param name="android-package" value="plugin.google.maps.MyGeocoder" />
+    </feature>
     <name>QRShop</name>
     <description>
         An Ionic Framework and Cordova project.

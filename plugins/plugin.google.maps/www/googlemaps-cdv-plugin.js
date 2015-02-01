@@ -111,10 +111,8 @@ var BaseClass = function() {
   self.addEventListenerOnce = self.one;
   
   self.errorHandler = function(msg) {
-    if (msg) {
-      console.error(msg);
-      self.trigger('error', msg);
-    }
+    console.error(msg);
+    self.trigger('error', msg);
     return false;
   };
   
@@ -523,7 +521,7 @@ App.prototype.clear = function(callback) {
 /**
  * Remove the map completely.
  */
-App.prototype.remove = function(callback) {
+App.prototype.remove = function() {
   var div = this.get('div');
   //console.log("div = " + div);
   if (div) {
@@ -543,11 +541,7 @@ App.prototype.remove = function(callback) {
   this.clear();
   this.empty();
   this.off();
-  cordova.exec(function() {
-    if (typeof callback === "function") {
-      callback.call(self);
-    }
-  }, self.errorHandler,  PLUGIN_NAME, 'remove', []);
+  cordova.exec(null, null, PLUGIN_NAME, 'remove', []);
 };
 
 App.prototype.refreshLayout = function() {
