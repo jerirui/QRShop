@@ -55,7 +55,7 @@
             }
 
 
-            navigator.geolocation.getCurrentPosition(geolocationSuccess, onError, {enableHighAccuracy:true});
+            // navigator.geolocation.getCurrentPosition(geolocationSuccess, onError, {enableHighAccuracy:true});
 
             // navigator.geolocation.getCurrentPosition(function(pos) {
             // geocoder = new google.maps.Geocoder();
