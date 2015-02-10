@@ -1,7 +1,7 @@
 {
   "name": "qrshop",
   "version": "1.0.0",
-  "description": "QRShop: An Ionic project",
+  "description": "QRShop: Eugene Babushkin's project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",
@@ -16,6 +16,8 @@
   },
   "cordovaPlugins": [
     "https://github.com/wf9a5m75/phonegap-googlemaps-plugin.git",
-    "plugin.google.maps"
+    "plugin.google.maps",
+    "org.apache.cordova.network-information",
+    "https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git"
   ]
 }

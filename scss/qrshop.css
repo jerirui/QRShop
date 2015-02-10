@@ -15,5 +15,10 @@
     margin: 0 auto;
     text-align: center; }
 
-.main-view {
+.view-container, .pane {
   background: #d3e5ed; }
+  .view-container *, .pane * {
+    background-color: inherit; }
+
+.item.item-input.item-icon-right input {
+  padding-right: 60px; }

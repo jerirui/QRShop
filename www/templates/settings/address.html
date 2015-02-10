@@ -1,30 +1,41 @@
 <ion-view view-title="Адреса"> 
-    <ion-content has-bouncing="false">
+    <ion-content>
         <div class="list">
             <a href="#/app/search" class="item item-input item-icon-right">
                 <span class="input-label">Місто</span>
-                <input type="tel" value="Київ" readonly>
+                <input type="text" value="{{addressForm.city}}" readonly>
                 <i class="icon ion-ios-arrow-forward"></i>
             </a>
             <label class="item item-input item-icon-right">
                 <span class="input-label">Район міста</span>
-                <input type="tel" value="Солом'янський" readonly>
+                <input type="text" value="{{addressForm.district}}" readonly>
                 <i class="icon ion-ios-arrow-forward"></i>
             </label>
             <label class="item item-input item-icon-right">
                 <span class="input-label">Вулиця</span>
-                <input type="tel" value="В.Гетьмана" readonly>
+                <input type="text" value="{{addressForm.street}}" readonly>
                 <i class="icon ion-ios-arrow-forward"></i>
             </label>
             <label class="item item-input item-icon-right">
                 <span class="input-label">Будинок</span>
-                <input type="tel" value="38">
+                <input type="text" value="{{addressForm.building}}">
+            </label>
+            <label class="item item-input item-icon-right">
+                <span class="input-label">Під'їзд</span>
+                <input type="text" value="{{addressForm.entrance}}">
+            </label>
+            <label class="item item-input item-icon-right">
+                <span class="input-label">Поверх</span>
+                <input type="text" value="{{addressForm.floor}}">
             </label>
             <label class="item item-input item-icon-right">
                 <span class="input-label">Квартира</span>
-                <input type="tel" value="82">
+                <input type="text" value="{{addressForm.flat}}">
             </label>
-            
+            <label class="item item-input item-icon-right">
+                <span class="input-label">Додатково</span>
+                <textarea name="" id="">{{addressForm.additional}}</textarea>
+            </label>
         </div>
     </ion-content>
 

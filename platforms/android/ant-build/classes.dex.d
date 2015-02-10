@@ -59,6 +59,8 @@
 /home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/plugin/http/request/HttpRequest.class \
 /home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/plugin/http/request/HttpRequest$2.class \
 /home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/org/apache/cordova/splashscreen/SplashScreen.class \
+/home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager.class \
+/home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager$1.class \
 /home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
 /home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
 /home/oigen90/Work/university/QRShop/platforms/android/ant-build/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \

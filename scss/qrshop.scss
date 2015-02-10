@@ -25,8 +25,20 @@ $blueishGrey: #d3e5ed;
 
 .view-container, .pane {
     background: $blueishGrey;
+}
 
-    & * {
-        background-color: inherit;
+.item.item-input.item-icon-right {
+    & input {
+        padding-right: 60px;
+    }
+}
+.item.add-new-item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: green;
+    font-size: 14px;
+
+    & > .icon:before {
+        font-size: 26px;
     }
 }

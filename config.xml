@@ -2,11 +2,11 @@
 <widget id="com.ionicframework.qrshop890489" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>QRShop</name>
   <description>
-        An Ionic Framework and Cordova project.
-    </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
-    </author>
+    QR-Supermarket project
+  </description>
+  <author email="oigen90@gmail.com" href="https://www.linkedin.com/in/oigen90">
+    Eugene Babushkin
+  </author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>

@@ -132,6 +132,7 @@
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/css/style.css \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/templates/stock.html \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/templates/menu.html \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/templates/search-filter.html \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/templates/playlists.html \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/templates/linkedin.html \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/templates/search.html \
@@ -172,12 +173,16 @@
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/lib/ionic/js/angular/angular-resource.min.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/lib/ionic/js/angular/angular-resource.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/plugin.google.maps \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.network-information \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/com.phonegap.plugins.barcodescanner \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/plugin.http.request \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/plugin.google.maps/www \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/plugin.google.maps/www/googlemaps-cdv-plugin.js \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/network.js \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.network-information/www/Connection.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/com.phonegap.plugins.barcodescanner/www \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/com.phonegap.plugins.barcodescanner/www/barcodescanner.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser/www \
@@ -187,8 +192,12 @@
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/plugins/org.apache.cordova.splashscreen/www/splashscreen.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/app.js \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/services \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/controllers.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/controllers \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/routes.js \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/services/GeoService.js \
+/home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/controllers/SearchController.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/controllers/DeveloperInfoController.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/controllers/StockController.js \
 /home/oigen90/Work/university/QRShop/platforms/android/assets/www/js/controllers/SettingsController.js \

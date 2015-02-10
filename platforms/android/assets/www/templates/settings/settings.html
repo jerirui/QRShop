@@ -1,48 +1,43 @@
-<ion-view view-title="Playlists"> 
-    <ion-content has-bouncing="false">
+<ion-view view-title="Налаштування"> 
+    <ion-content>
 
         <div class="list">
             <label class="item item-input">
                 <span class="input-label">Ім'я</span>
-                <input type="text" value="Євген">
+                <input type="text" value="{{ userInfo.username }}">
             </label>
             <label class="item item-input">
                 <span class="input-label">E-mail</span>
-                <input type="email" value="oigen90@gmail.com">
+                <input type="email" value="{{ userInfo.email }}">
             </label>
         </div>
 
         <div class="list">
             <a href="#/app/settings/gender" class="item item-input item-icon-right">
                 <span class="input-label">Стать</span>
-                <input type="tel" value="Чоловіча">
+                <input type="tel" readonly value="{{ userInfo.gender }}">
                 <i class="icon ion-ios-arrow-forward"></i>
             </a>
         </div>
 
         <div class="list">
-            <label class="item item-input">
+            <label class="item item-input" ng-repeat="phone in userInfo.phonesList">
                 <span class="input-label">Телефон</span>
-                <input type="tel" value="(050) 915-29-16">
+                <input type="tel" value="{{ phone }}">
             </label>
-            <div class="item item-icon-right">
+            <div class="item item-icon-right add-new-item">
                 Додати новий телефон
                 <i class="icon ion-ios-plus-outline"></i>
             </div>
         </div>
 
         <div class="list">
-            <label class="item item-input item-icon-right">
+            <a href="#/app/settings/address/{{$index}}" class="item item-input item-icon-right" ng-repeat="address in userInfo.addressList">
                 <span class="input-label">Адреса</span>
-                <input type="tel" value="В.Гетьмана, 38, 82">
+                <input type="tel" readonly value="{{address.street}} {{address.building}}, {{address.flat}}">
                 <i class="icon ion-ios-arrow-forward"></i>
-            </label>
-            <label class="item item-input item-icon-right">
-                <span class="input-label">Адреса</span>
-                <input type="tel" value="Артема, 1-5, 404">
-                <i class="icon ion-ios-arrow-forward"></i>
-            </label>
-            <div class="item item-icon-right">
+            </a>
+            <div class="item item-icon-right add-new-item" ng-click="addNewAddress()">
                 Додати нову адресу
                 <i class="icon ion-ios-plus-outline"></i>
             </div>

@@ -17,3 +17,14 @@
 
 .view-container, .pane {
   background: #d3e5ed; }
+
+.item.item-input.item-icon-right input {
+  padding-right: 60px; }
+
+.item.add-new-item {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: green;
+  font-size: 14px; }
+  .item.add-new-item > .icon:before {
+    font-size: 26px; }
